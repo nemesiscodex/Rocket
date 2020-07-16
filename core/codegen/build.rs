@@ -3,8 +3,8 @@
 use yansi::{Paint, Color::{Red, Yellow, Blue}};
 
 // Specifies the minimum nightly version needed to compile Rocket.
-const MIN_DATE: &'static str = "2020-05-20";
-const MIN_VERSION: &'static str = "1.45.0-nightly";
+const MIN_DATE: &'static str = "2020-07-13";
+const MIN_VERSION: &'static str = "1.45.0";
 
 macro_rules! err {
     ($version:expr, $date:expr, $msg:expr) => (
